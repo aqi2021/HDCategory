@@ -11,10 +11,27 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSObject (HDFunc)
 
+/// 是否为空
+- (BOOL)isEmpty;
+
 /// 判断某个类的某个方法是否被重写过
 /// @param cls 类
 /// @param aSelector 方法
 + (BOOL)hd_checkMethodIsOverrideWithCls:(Class)cls aSelector:(SEL)aSelector;
+
+#pragma mark - 方法交换
+
+/// 交换类方法
+/// @param cls 类名
+/// @param originalSel 原方法
+/// @param swizzledMethod 交换方法
++ (void)hd_swizzleClassMethodWithClass:(Class)cls originalSel:(SEL)originalSel swizzledMethod:(SEL)swizzledMethod;
+
+/// 交换对象方法
+/// @param cls 类名
+/// @param originalSel 原方法
+/// @param swizzledMethod 交换方法
++ (void)hd_swizzleInstanceMethodWithClass:(Class)cls originalSel:(SEL)originalSel swizzledMethod:(SEL)swizzledMethod;
 
 @end
 

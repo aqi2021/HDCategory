@@ -12,10 +12,22 @@
 /**
  * NSObject
  */
-#import "NSObject+HDMethodSwizzling.h"
 #import "NSObject+HDFunc.h"
 
+/**
+ * NSString
+ */
+#import "NSString+HDFunc.h"
 
+/**
+ * NSArray
+ */
+#import "NSArray+HDFunc.h"
+
+/**
+ * NSDictionary
+ */
+#import "NSDictionary+HDFunc.h"
 
 
 #endif /* HDFoundation_h */

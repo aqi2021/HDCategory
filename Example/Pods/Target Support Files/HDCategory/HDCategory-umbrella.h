@@ -11,13 +11,17 @@
 #endif
 
 #import "HDFoundation.h"
+#import "NSArray+HDFunc.h"
+#import "NSDictionary+HDFunc.h"
 #import "NSObject+HDFunc.h"
-#import "NSObject+HDMethodSwizzling.h"
+#import "NSString+HDFunc.h"
 #import "HDCategory.h"
 #import "HDUIKit.h"
 #import "HDFoundation.h"
+#import "NSArray+HDFunc.h"
+#import "NSDictionary+HDFunc.h"
 #import "NSObject+HDFunc.h"
-#import "NSObject+HDMethodSwizzling.h"
+#import "NSString+HDFunc.h"
 #import "HDUIKit.h"
 
 FOUNDATION_EXPORT double HDCategoryVersionNumber;
