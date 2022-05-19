@@ -7,6 +7,7 @@
 //
 
 #import "HDViewController.h"
+#import <HDCategory/HDCategory.h>
 
 @interface HDViewController ()
 
@@ -17,7 +18,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
