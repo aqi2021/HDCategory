@@ -1,17 +1,25 @@
 //
-//  NSObject+HDFunc.m
+//  NSObject+HDAdd.m
 //  HDCategory
 //
 //  Created by 黄山锋 on 2022/5/19.
 //
 
-#import "NSObject+HDFunc.h"
+#import "NSObject+HDAdd.h"
 #import <objc/runtime.h>
 
-@implementation NSObject (HDFunc)
+@implementation NSObject (HDAdd)
+
+/// 获取类名
++ (NSString *)hd_className {
+    return NSStringFromClass(self);
+}
+- (NSString *)hd_className {
+    return [NSObject className];
+}
 
 /// 是否为空
-- (BOOL)isEmpty {
+- (BOOL)hd_isEmpty {
     return (self == nil || [self isKindOfClass:[NSNull class]]);
 }
 

@@ -1,16 +1,16 @@
 //
-//  NSDictionary+HDFunc.m
+//  NSDictionary+HDAdd.m
 //  HDCategory
 //
 //  Created by 黄山锋 on 2022/5/19.
 //
 
-#import "NSDictionary+HDFunc.h"
+#import "NSDictionary+HDAdd.h"
 
-@implementation NSDictionary (HDFunc)
+@implementation NSDictionary (HDAdd)
 
 /// 是否为空
-- (BOOL)isEmpty {
+- (BOOL)hd_isEmpty {
     return (self == nil || [self isKindOfClass:[NSNull class]] || self.count == 0);
 }
 

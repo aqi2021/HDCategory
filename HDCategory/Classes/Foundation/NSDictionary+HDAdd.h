@@ -1,5 +1,5 @@
 //
-//  NSArray+HDFunc.h
+//  NSDictionary+HDAdd.h
 //  HDCategory
 //
 //  Created by 黄山锋 on 2022/5/19.
@@ -9,10 +9,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSArray (HDFunc)
+@interface NSDictionary (HDAdd)
 
 /// 是否为空
-- (BOOL)isEmpty;
+- (BOOL)hd_isEmpty;
 
 @end
 

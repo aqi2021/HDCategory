@@ -12,22 +12,25 @@
 /**
  * NSObject
  */
-#import "NSObject+HDFunc.h"
+#import "NSObject+HDAdd.h"
 
 /**
  * NSString
  */
-#import "NSString+HDFunc.h"
+#import "NSString+HDAdd.h"
+#import "NSString+HDRegex.h"
+#import "NSString+HDEncrypt.h"
 
 /**
  * NSArray
  */
-#import "NSArray+HDFunc.h"
+#import "NSArray+HDAdd.h"
+#import "NSMutableArray+HDAdd.h"
 
 /**
  * NSDictionary
  */
-#import "NSDictionary+HDFunc.h"
+#import "NSDictionary+HDAdd.h"
 
 
 #endif /* HDFoundation_h */
