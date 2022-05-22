@@ -54,6 +54,8 @@
 		DDE37E162836581D00ADA65B /* NSString+HDRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE37E142836581D00ADA65B /* NSString+HDRegex.m */; };
 		DDE37E192836583300ADA65B /* NSString+HDEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE37E172836583300ADA65B /* NSString+HDEncrypt.h */; };
 		DDE37E1A2836583300ADA65B /* NSString+HDEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE37E182836583300ADA65B /* NSString+HDEncrypt.m */; };
+		DDE37E1D283658F400ADA65B /* NSString+HDDate.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE37E1B283658F300ADA65B /* NSString+HDDate.h */; };
+		DDE37E1E283658F400ADA65B /* NSString+HDDate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE37E1C283658F300ADA65B /* NSString+HDDate.m */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -154,6 +156,8 @@
 		DDE37E142836581D00ADA65B /* NSString+HDRegex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HDRegex.m"; sourceTree = "<group>"; };
 		DDE37E172836583300ADA65B /* NSString+HDEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HDEncrypt.h"; sourceTree = "<group>"; };
 		DDE37E182836583300ADA65B /* NSString+HDEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HDEncrypt.m"; sourceTree = "<group>"; };
+		DDE37E1B283658F300ADA65B /* NSString+HDDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HDDate.h"; sourceTree = "<group>"; };
+		DDE37E1C283658F300ADA65B /* NSString+HDDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HDDate.m"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E92035320C8FCFB2531C1CFF31CFE840 /* Pods-HDCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HDCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F3804092531164BCFA013A7C9A64CE97 /* Pods-HDCategory_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDCategory_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -420,6 +424,8 @@
 				DDE37E142836581D00ADA65B /* NSString+HDRegex.m */,
 				DDE37E172836583300ADA65B /* NSString+HDEncrypt.h */,
 				DDE37E182836583300ADA65B /* NSString+HDEncrypt.m */,
+				DDE37E1B283658F300ADA65B /* NSString+HDDate.h */,
+				DDE37E1C283658F300ADA65B /* NSString+HDDate.m */,
 			);
 			name = Foundation;
 			path = HDCategory/Classes/Foundation;
@@ -448,6 +454,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE37E1D283658F400ADA65B /* NSString+HDDate.h in Headers */,
 				CCE4BEE90E9988A5C580AAD278296B26 /* HDCategory.h in Headers */,
 				DDE37E01283654BB00ADA65B /* NSDictionary+HDAdd.h in Headers */,
 				2949A5FC3135CE9F5A23B5D6FCBFC740 /* HDCategory-umbrella.h in Headers */,
@@ -648,6 +655,7 @@
 				C1379CF3F182203641C71F0DC2E3E4D0 /* HDCategory-dummy.m in Sources */,
 				DDE37E12283655B500ADA65B /* NSMutableArray+HDAdd.m in Sources */,
 				DDE37E0A2836551400ADA65B /* NSObject+HDAdd.m in Sources */,
+				DDE37E1E283658F400ADA65B /* NSString+HDDate.m in Sources */,
 				DDE37E1A2836583300ADA65B /* NSString+HDEncrypt.m in Sources */,
 				DDE37E162836581D00ADA65B /* NSString+HDRegex.m in Sources */,
 				DDE37E06283654DA00ADA65B /* NSArray+HDAdd.m in Sources */,

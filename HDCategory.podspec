@@ -52,7 +52,8 @@ TODO: Add long description of the pod here.
 #   'HDCategory' => ['HDCategory/Assets/*.png']
 #  }
   s.frameworks = 'UIKit', 'Foundation'
-#  s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'HDCategory', :path => '../HDCategory'
+  s.dependency 'HDLog', :path => '../HDLog'
   
   
   

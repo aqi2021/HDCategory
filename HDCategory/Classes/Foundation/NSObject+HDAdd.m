@@ -15,7 +15,7 @@
     return NSStringFromClass(self);
 }
 - (NSString *)hd_className {
-    return [NSObject className];
+    return NSStringFromClass([self class]);
 }
 
 /// 是否为空
