@@ -10,18 +10,16 @@
 #endif
 #endif
 
-#import "HDFoundation.h"
-#import "NSArray+HDFunc.h"
-#import "NSDictionary+HDFunc.h"
-#import "NSObject+HDFunc.h"
-#import "NSString+HDFunc.h"
 #import "HDCategory.h"
-#import "HDUIKit.h"
 #import "HDFoundation.h"
-#import "NSArray+HDFunc.h"
-#import "NSDictionary+HDFunc.h"
-#import "NSObject+HDFunc.h"
-#import "NSString+HDFunc.h"
+#import "NSArray+HDAdd.h"
+#import "NSDictionary+HDAdd.h"
+#import "NSMutableArray+HDAdd.h"
+#import "NSObject+HDAdd.h"
+#import "NSString+HDAdd.h"
+#import "NSString+HDDate.h"
+#import "NSString+HDEncrypt.h"
+#import "NSString+HDRegex.h"
 #import "HDUIKit.h"
 
 FOUNDATION_EXPORT double HDCategoryVersionNumber;

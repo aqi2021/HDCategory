@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HDCategory'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of HDCategory.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   
   # s.public_header_files = 'HDCategory/Classes/HDCategory.h'
-  s.source_files = 'HDCategory/Classes/**/*.{h,m}'
+  s.source_files = 'HDCategory/Classes/HDCategory.h'
 
 
   # Foundation

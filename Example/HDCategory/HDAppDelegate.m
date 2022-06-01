@@ -7,6 +7,7 @@
 //
 
 #import "HDAppDelegate.h"
+#import <HDCategory/HDCategory.h>
 
 @implementation HDAppDelegate
 

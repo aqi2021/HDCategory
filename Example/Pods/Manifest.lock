@@ -1,31 +1,20 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - HDCategory (0.1.0):
-    - HDCategory/Foundation (= 0.1.0)
-    - HDCategory/UIKit (= 0.1.0)
-  - HDCategory/Foundation (0.1.0)
-  - HDCategory/UIKit (0.1.0)
+  - HDCategory (0.1.1):
+    - HDCategory/Foundation (= 0.1.1)
+    - HDCategory/UIKit (= 0.1.1)
+  - HDCategory/Foundation (0.1.1)
+  - HDCategory/UIKit (0.1.1)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - HDCategory (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   HDCategory:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HDCategory: 80c62bcef15e0e8ba52c2bfbe9820d59aebbee1a
+  HDCategory: f2e6fb139b89e2ec6e6ef67a902f1d1f4b672833
 
-PODFILE CHECKSUM: 5b8a1fd101e6bb769885bee553eae64929e4e04c
+PODFILE CHECKSUM: 9b6e988c975c1131a7a387241bfe49f0e37768f0
 
 COCOAPODS: 1.11.3

@@ -1,3 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 platform :ios, '9.0'
@@ -8,6 +10,6 @@ target 'HDCategory_Example' do
   target 'HDCategory_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    #pod 'FBSnapshotTestCase'
   end
 end

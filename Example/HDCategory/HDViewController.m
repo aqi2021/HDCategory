@@ -7,7 +7,6 @@
 //
 
 #import "HDViewController.h"
-#import <HDCategory/HDCategory.h>
 
 @interface HDViewController ()
 
