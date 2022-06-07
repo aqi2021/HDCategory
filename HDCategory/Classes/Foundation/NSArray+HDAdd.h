@@ -4,6 +4,7 @@
 //
 //  Created by 黄山锋 on 2022/5/19.
 //
+//  content: 通用
 
 #import <Foundation/Foundation.h>
 

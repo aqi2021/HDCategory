@@ -44,6 +44,7 @@ TODO: Add long description of the pod here.
   # UIKit
   s.subspec 'UIKit' do |ss|
     ss.source_files = 'HDCategory/Classes/UIKit/*.{h,m}'
+    ss.dependency 'HDCategory/Foundation'
   end
 
    

@@ -8,5 +8,19 @@
 #ifndef HDUIKit_h
 #define HDUIKit_h
 
+/**
+ * UIView
+ */
+#import "UIView+HDAdd.h"
+
+/**
+ * UIButton
+ */
+#import "UIButton+HDAdd.h"
+
+/**
+ * UIScrollView
+ */
+#import "UIScrollView+HDAdd.h"
 
 #endif /* HDUIKit_h */
