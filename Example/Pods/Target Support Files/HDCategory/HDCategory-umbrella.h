@@ -21,6 +21,9 @@
 #import "NSString+HDEncrypt.h"
 #import "NSString+HDRegex.h"
 #import "HDUIKit.h"
+#import "UIButton+HDAdd.h"
+#import "UIScrollView+HDAdd.h"
+#import "UIView+HDAdd.h"
 
 FOUNDATION_EXPORT double HDCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char HDCategoryVersionString[];

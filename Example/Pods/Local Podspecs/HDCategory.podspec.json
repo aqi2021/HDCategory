@@ -1,6 +1,6 @@
 {
   "name": "HDCategory",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of HDCategory.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/aqi2021/HDCategory",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/aqi2021/HDCategory.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -30,7 +30,12 @@
     },
     {
       "name": "UIKit",
-      "source_files": "HDCategory/Classes/UIKit/*.{h,m}"
+      "source_files": "HDCategory/Classes/UIKit/*.{h,m}",
+      "dependencies": {
+        "HDCategory/Foundation": [
+
+        ]
+      }
     }
   ]
 }

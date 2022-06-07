@@ -1,9 +1,10 @@
 PODS:
-  - HDCategory (0.1.1):
-    - HDCategory/Foundation (= 0.1.1)
-    - HDCategory/UIKit (= 0.1.1)
-  - HDCategory/Foundation (0.1.1)
-  - HDCategory/UIKit (0.1.1)
+  - HDCategory (0.1.2):
+    - HDCategory/Foundation (= 0.1.2)
+    - HDCategory/UIKit (= 0.1.2)
+  - HDCategory/Foundation (0.1.2)
+  - HDCategory/UIKit (0.1.2):
+    - HDCategory/Foundation
 
 DEPENDENCIES:
   - HDCategory (from `../`)
@@ -13,7 +14,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HDCategory: f2e6fb139b89e2ec6e6ef67a902f1d1f4b672833
+  HDCategory: ff1677da9202ea20979f19f954aeae68e0429144
 
 PODFILE CHECKSUM: 9b6e988c975c1131a7a387241bfe49f0e37768f0
 
